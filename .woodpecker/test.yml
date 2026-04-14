@@ -1,4 +1,4 @@
-pipeline:
+steps:
   my-first-job:
     image: alpine:latest
     commands:
