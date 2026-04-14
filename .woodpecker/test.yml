@@ -1,0 +1,6 @@
+pipeline:
+  my-first-job:
+    image: alpine:latest
+    commands:
+      - echo "🎉 成功啦！Woodpecker 正在运行我的第一个流水线！"
+      - echo "今天是 $(date)"
